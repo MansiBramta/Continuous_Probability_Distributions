@@ -103,7 +103,7 @@ rather than looking at the mathematical formula in isolation.
 ## Repository Structure
 
 ```text
-Continuous-Probability-Distributions/
+Continuous_Probability_Distributions/
 │
 ├── Continuous_Probability_Distributions.md
 │
