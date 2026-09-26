@@ -53,7 +53,7 @@ A major focus is learning how to read a probability distribution rather than tre
 For example:
 
 $$
-X \sim \operatorname{Normal}(\mu,\sigma^2)
+X \sim \text{Normal}(\mu,\sigma^2)
 $$
 
 means that the random variable \(X\) follows a Normal distribution with mean $(\mu)$ and variance $(\sigma^2)$.
@@ -61,15 +61,15 @@ means that the random variable \(X\) follows a Normal distribution with mean $(\
 Similarly:
 
 $$
-X \sim \operatorname{Exponential}(\lambda)
+X \sim \text{Exponential}(\lambda)
 $$
 
 $$
-X \sim \operatorname{Gamma}(k,\lambda)
+X \sim \text{Gamma}(k,\lambda)
 $$
 
 $$
-X \sim \operatorname{Beta}(\alpha,\beta)
+X \sim \text{Beta}(\alpha,\beta)
 $$
 
 The parameters are not just symbols in the formula—they determine the **shape and behavior of the distribution**.
