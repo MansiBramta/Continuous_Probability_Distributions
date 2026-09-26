@@ -142,7 +142,7 @@ $$\text{Var}(X) = \frac{a^2+ab+b^2}{3} - \left(\frac{a+b}{2}\right)^2$$
 
 After simplifying:
 
-$$ \text{Var}(X) = \frac{(b-a)^2}{12} $$
+$$\text{Var}(X) = \frac{(b-a)^2}{12}$$
 ---
 
 Now let us see it through an example,
@@ -542,20 +542,20 @@ So approximately 95.4% of all students would have scores between 50 and 90.
 Notice what's happening:
 
 Within 1 SD
-$$ 60\rightarrow80 $$
+$$60\rightarrow80$$
 
 contains:
 
 $$ 68.2\% $$
 
 Within 2 SD
-$$ 50\rightarrow90 $$
+$$50\rightarrow90$$
 
 contains:
 
 $$ 95.4\% $$
 Within 3 SD
-$$ 40\rightarrow100 $$
+$$40\rightarrow100$$
 
 contains:
 
@@ -1292,11 +1292,10 @@ Substitute both formulas:
 
 $$ Var(X) = \frac{\alpha(\alpha+1)} {(\alpha+\beta)(\alpha+\beta+1)} - \left( \frac{\alpha}{\alpha+\beta} \right)^2 $$
 
-Now simplify.
 
 The result is:
 
-$$ Var(X)= \frac{\alpha\beta} {(\alpha+\beta)^2(\alpha+\beta+1)} $$
+$$Var(X)= \frac{\alpha\beta} {(\alpha+\beta)^2(\alpha+\beta+1)}$$
 -----
 **Question**
 
