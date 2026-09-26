@@ -142,7 +142,7 @@ $$\text{Var}(X) = \frac{a^2+ab+b^2}{3} - \left(\frac{a+b}{2}\right)^2$$
 
 After simplifying:
 
-$${\text{Var}(X) = \frac{(b-a)^2}{12}}$$
+$$\text{Var}(X) = \frac{(b-a)^2}{12}$$
 ---
 
 Now let us see it through an example,
@@ -175,7 +175,8 @@ $$P(10<X<18) = \frac{18-10}{30-0} $$ $$ =\frac{8}{30} $$ $$ =\frac{4}{15} \appro
 
 So:
 
-$${P(10<X<18)\approx26.67\%} $$
+$$P(10<X<18)\approx26.67\%$$
+
 2. What is the expected time?
 
 For a Uniform Distribution:
@@ -283,17 +284,17 @@ To understand this, we should first discuss **z-score**, it is:
 i.e if σ = 10 units then 1 standard deviation = 10 units.
 
 *Positive z-score*
-$$ z>0 $$
+$$z>0$$
 
 means the value is above the mean.
 
 *Negative z-score*
-$$ z<0 $$
+$$z<0$$
 
 means the value is below the mean.
 
 *Zero z-score*
-$$ z=0 $$
+$$z=0$$
 
 means:
 
@@ -436,7 +437,7 @@ $$\mu-\sigma<X<\mu+\sigma$$
 
 contains about:
 
-$$68\%$$
+$$ 68\% $$
 
 of the observations.
 
@@ -445,7 +446,7 @@ $$\mu-2\sigma<X<\mu+2\sigma$$
 
 contains approximately:
 
-$$95\%$$
+$$ 95\% $$
 Within 3 standard deviations
 $$\mu-3\sigma<X<\mu+3\sigma$$
 
@@ -455,7 +456,7 @@ $$ 99.7\% $$
 
 So visually:
 
-$${68\%-95\%-99.7\%}$$
+$$ 68\%-95\%-99.7\% $$
 
 ![](other_images/68-95-99.png)
 
@@ -534,7 +535,7 @@ $$ 70+20=90 $$
 
 The graph says:
 
-$$ \boxed{95.4\%} $$
+$$ 95.4\% $$
 
 So approximately 95.4% of all students would have scores between 50 and 90.
 
@@ -546,6 +547,7 @@ $$ 60\rightarrow80 $$
 contains:
 
 $$ 68.2\% $$
+
 Within 2 SD
 $$ 50\rightarrow90 $$
 
@@ -579,6 +581,7 @@ This is why extreme observations are rare in a normal distribution.
 
 So remember:
 $${\text{Height of curve}=\text{density}}$$
+
 $$\text{Area under a region = probability/percentage of observations}$$
 
 ```
@@ -812,11 +815,11 @@ It gets closer and closer to zero because very long waiting times are possible, 
 
 The **Mean** is:
 
-$$E[X]=\frac{1}{\lambda}​$$
+$$ E[X]=\frac{1}{\lambda}​ $$
 
 and the **Variance** is:
 
-$${\text{Var}(X)=\frac{1}{\lambda^2}}$$
+$$ \text{Var}(X)=\frac{1}{\lambda^2} $$
 
 ----
 Now let us see it through an example,
@@ -831,7 +834,7 @@ Let \(X\) be the waiting time in hours until the next customer arrives.
 
 Therefore,
 
-$$ X\sim \operatorname{Exponential}(\lambda=2) $$
+$$ X\sim \text{Exponential}(\lambda=2) $$
 
 Its PDF is:
 
@@ -1156,7 +1159,8 @@ $${ B(\alpha,\beta) = \int_0^1 x^{\alpha-1}(1-x)^{\beta-1}\,dx } $$
 It basically calculates the area under the unnormalized curve.
 
 Case 1: $(\alpha=1,\beta=1)$
-$$ f(x)=1 $$
+
+$ f(x)=1 $
 
 This gives a uniform distribution between 0 and 1.
 
@@ -1281,7 +1285,7 @@ $$ E[X^2] = \frac{B(\alpha+2,\beta)} {B(\alpha,\beta)} $$
 
 After applying the Gamma-function relationships:
 
-$${ E[X^2] = \frac{\alpha(\alpha+1)} {(\alpha+\beta)(\alpha+\beta+1)} } $$
+$$ E[X^2] = \frac{\alpha(\alpha+1)} {(\alpha+\beta)(\alpha+\beta+1)} $$
 
 
 Substitute both formulas:
@@ -1292,7 +1296,7 @@ Now simplify.
 
 The result is:
 
-$${ Var(X)= \frac{\alpha\beta} {(\alpha+\beta)^2(\alpha+\beta+1)} } $$
+$$ Var(X)= \frac{\alpha\beta} {(\alpha+\beta)^2(\alpha+\beta+1)} $$
 -----
 **Question**
 
@@ -1368,6 +1372,8 @@ plt.show()
 ------
 
 Here is the summary table for you all:
+
+
 ![](other_images/summary.png)
 
 
