@@ -142,7 +142,7 @@ $$\text{Var}(X) = \frac{a^2+ab+b^2}{3} - \left(\frac{a+b}{2}\right)^2$$
 
 After simplifying:
 
-$$\text{Var}(X) = \frac{(b-a)^2}{12}$$
+$$ \text{Var}(X) = \frac{(b-a)^2}{12} $$
 ---
 
 Now let us see it through an example,
@@ -171,11 +171,11 @@ $$18-10=8$$
 
 Therefore:
 
-$$P(10<X<18) = \frac{18-10}{30-0} $$ $$ =\frac{8}{30} $$ $$ =\frac{4}{15} \approx0.2667 $$
+$$P(10 \lt X \lt 18) = \frac{18-10}{30-0}$$ $$ =\frac{8}{30} $$ $$ =\frac{4}{15} \approx0.2667 $$
 
 So:
 
-$$P(10<X<18)\approx26.67\%$$
+$$P(10 \lt X \lt 18)\approx26.67\%$$
 
 2. What is the expected time?
 
@@ -283,17 +283,17 @@ To understand this, we should first discuss **z-score**, it is:
 
 i.e if σ = 10 units then 1 standard deviation = 10 units.
 
-*Positive z-score*
+*Positive z-score*:
 $$z>0$$
 
 means the value is above the mean.
 
-*Negative z-score*
+*Negative z-score*:
 $$z<0$$
 
 means the value is below the mean.
 
-*Zero z-score*
+*Zero z-score*:
 $$z=0$$
 
 means:
